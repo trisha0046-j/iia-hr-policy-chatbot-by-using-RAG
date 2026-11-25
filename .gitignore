@@ -1,0 +1,24 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Generated indexes and evaluation outputs
+faiss_index_iia/
+rag_results.csv
+ragas_scores.csv
+chunk_comparison.csv
+*.pkl
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
